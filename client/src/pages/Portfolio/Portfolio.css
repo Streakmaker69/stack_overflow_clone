@@ -1,0 +1,34 @@
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-container h1{
+    font-weight: 500;
+    font-family: "Arial", sans-serif;
+}
+
+.portfolio-container h6{
+    font-weight: 500;
+    font-family: "Arial", sans-serif;
+}
+
+.portfolio-container a{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: "Arial", sans-serif;
+    background-color: #000080;
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.portfolio-container a:hover{
+    background-color: white;
+    color: maroon;
+}

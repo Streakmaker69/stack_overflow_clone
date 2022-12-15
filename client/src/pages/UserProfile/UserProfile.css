@@ -1,0 +1,130 @@
+.user-details-container{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-details{
+    display: flex;
+    align-items: flex-start;
+}
+
+.user-name{
+    padding: 20px;
+    font-family: "Arial",sans-serif;
+}
+
+.user-name p{
+    color: #7e7e7e;
+    font-family: "Arial",sans-serif;
+}
+
+.edit-profile-btn{
+    padding: 8px 10px;
+    border: solid 1px #7e7e7e;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.edit-profile-btn:hover{
+    background-color: #000080;
+    color: white;
+}
+
+.edit-profile-title{
+    padding: 20px 0px;
+    border-bottom: solid 1px #dbd9d9;
+    font-family: "Arial",sans-serif;
+}
+
+.edit-profile-title-2{
+    color: grey;
+    font-weight: 500;
+    font-family: "Arial",sans-serif;
+}
+
+.edit-profile-form{
+    padding: 20px;
+    border: solid 2px #dbd9d9;
+    border-radius: 6px;
+}
+
+.edit-profile-form label h3{
+    margin: 0%;
+    padding: 3px 0px;
+    font-family: "Arial",sans-serif;
+}
+
+.edit-profile-form label p{
+    margin: 0%;
+    padding: 3px 0px;
+    font-family: "Arial",sans-serif;
+}
+
+.edit-profile-form label input,
+.edit-profile-form label textarea{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: solid 1px #dbd9d9;
+    width: 50%;
+    font-family: "Arial",sans-serif;
+}
+
+.user-submit-btn{
+    padding: 14px 10px;
+    background-color: skyblue;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-family: "Arial",sans-serif;
+    cursor: pointer;
+}
+
+.user-submit-btn:hover{
+    background-color: #000080;
+    color: white;
+}
+
+.user-cancel-btn{
+    padding: 14px 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.user-cancel-btn:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.tags-div{
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px rgb( 0 0 0 / 20%),
+    -3px 3px 10px rgb( 0 0 / 20%);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #e3e6e8;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #FFE5B4;
+}
+
+.tags-div p{
+    padding: 10px;
+    background-color: #000080;
+    color: white;
+    border-radius: 15px;
+    font-size: 13px;
+}
